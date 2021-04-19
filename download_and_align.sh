@@ -11,6 +11,11 @@ echo "Downloading references"
 curl http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz | gunzip -c > hg38.fa
 curl http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ensGene.gtf.gz | gunzip -c > hg38.ensGene.gtf
 
+mkdir fastqs
+mkdir trimmed_fastqs
+mkdir aligned
+mkdir rseqc
+
 echo "Generating genome index"
 STAR \
   --runMode genomeGenerate \
