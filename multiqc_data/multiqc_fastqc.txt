@@ -1,0 +1,13 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_tile_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+HC-01	HC-01_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	21446176.0	0.0	20-101	39.0	59.029518718007566	95.0703400923316	pass	pass	pass	pass	pass	pass	pass	warn	warn	warn	pass
+HC-02	HC-02_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	31749201.0	0.0	20-100	39.0	84.76081991044333	98.01249014109048	pass	pass	pass	pass	pass	pass	pass	warn	pass	warn	pass
+HC-03	HC-03_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	18542282.0	0.0	20-100	40.0	86.38650289864601	98.49539824709817	pass	pass	pass	pass	pass	pass	pass	warn	pass	warn	pass
+HC-04	HC-04_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	21661408.0	0.0	20-101	40.0	51.2077564234794	96.11460667746067	pass	pass	warn	pass	pass	pass	pass	warn	warn	warn	pass
+HC-05	HC-05_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	22296866.0	0.0	20-101	42.0	53.23939421917749	96.0353858699245	pass	pass	pass	pass	pass	pass	pass	warn	warn	warn	pass
+HC-06	HC-06_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	24106037.0	0.0	20-101	42.0	52.85184133814072	97.14910924595361	pass	pass	pass	pass	pass	pass	pass	warn	warn	warn	pass
+Lung-01	Lung-01_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	25340214.0	0.0	20-101	43.0	54.65345998418086	97.51912971216423	pass	pass	pass	pass	pass	pass	pass	warn	warn	pass	pass
+Lung-0119	Lung-0119_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	11722611.0	0.0	20-101	42.0	29.494204098163756	95.66234757768555	pass	pass	pass	pass	fail	fail	pass	warn	fail	fail	pass
+Lung-07	Lung-07_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	20108872.0	0.0	20-101	44.0	53.470571263322064	97.37317349277473	pass	pass	pass	pass	pass	pass	pass	warn	warn	pass	pass
+Lung-12	Lung-12_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	14825153.0	0.0	20-101	45.0	27.918629877240086	97.47803776460182	pass	pass	pass	pass	pass	pass	pass	warn	fail	pass	pass
+Lung-16	Lung-16_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	37397504.0	0.0	20-101	45.0	27.869431081500895	97.36283228955601	pass	pass	warn	pass	pass	fail	pass	warn	fail	pass	pass
+Lung-17	Lung-17_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	23668051.0	0.0	20-101	45.0	37.26061641329906	97.77946084364953	pass	pass	pass	pass	pass	pass	pass	warn	fail	pass	pass
