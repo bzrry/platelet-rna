@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fastqs/HC-05.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 1.18
+Python version: 3.7.6
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 3.7.6
+Command line parameters: -j 4 -e 0.1 -q 20 -O 5 -a AGATCGGAAGAGC fastqs/HC-05.fq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 173.72 s (7 us/read; 8.60 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              24,896,355
+Reads with adapters:                 2,801,486 (11.3%)
+Reads written (passing filters):    24,896,355 (100.0%)
+
+Total basepairs processed: 2,514,531,855 bp
+Quality-trimmed:             181,516,389 bp (7.2%)
+Total written (filtered):  2,160,791,057 bp (85.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 2801486 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 2.1%
+  C: 1.5%
+  G: 1.9%
+  T: 2.1%
+  none/other: 92.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	32198	24312.8	0	32198
+6	20311	6078.2	0	20311
+7	13166	1519.6	0	13166
+8	13546	379.9	0	13546
+9	11438	95.0	0	11212 226
+10	10262	23.7	1	9821 441
+11	8787	5.9	1	8453 334
+12	8460	1.5	1	8237 223
+13	6535	0.4	1	6377 158
+14	6402	0.4	1	6223 179
+15	5697	0.4	1	5511 186
+16	5138	0.4	1	4940 198
+17	5387	0.4	1	5148 239
+18	4605	0.4	1	4434 171
+19	3131	0.4	1	2944 187
+20	3577	0.4	1	3322 255
+21	3704	0.4	1	3461 243
+22	2980	0.4	1	2714 266
+23	3423	0.4	1	2787 636
+24	3129	0.4	1	2289 840
+25	3405	0.4	1	2352 1053
+26	3651	0.4	1	2124 1527
+27	4920	0.4	1	2148 2772
+28	4035	0.4	1	1998 2037
+29	3798	0.4	1	1736 2062
+30	2981	0.4	1	1841 1140
+31	2940	0.4	1	1139 1801
+32	3516	0.4	1	1477 2039
+33	21198	0.4	1	1108 20090
+34	8578	0.4	1	1385 7193
+35	5207	0.4	1	1389 3818
+36	3960	0.4	1	1394 2566
+37	4260	0.4	1	1267 2993
+38	17835	0.4	1	3133 14702
+39	14332	0.4	1	2281 12051
+40	24509	0.4	1	1831 22678
+41	10654	0.4	1	2557 8097
+42	6466	0.4	1	1297 5169
+43	5461	0.4	1	757 4704
+44	26598	0.4	1	572 26026
+45	23696	0.4	1	1497 22199
+46	12904	0.4	1	1346 11558
+47	14314	0.4	1	807 13507
+48	19470	0.4	1	985 18485
+49	11805	0.4	1	1154 10651
+50	10565	0.4	1	594 9971
+51	26530	0.4	1	691 25839
+52	22891	0.4	1	1354 21537
+53	7435	0.4	1	1305 6130
+54	9069	0.4	1	460 8609
+55	10355	0.4	1	608 9747
+56	20911	0.4	1	951 19960
+57	22572	0.4	1	1096 21476
+58	35986	0.4	1	1156 34830
+59	16248	0.4	1	1845 14403
+60	29175	0.4	1	787 28388
+61	37602	0.4	1	1502 36100
+62	127455	0.4	1	1739 125716
+63	111756	0.4	1	5334 106422
+64	55133	0.4	1	4177 50956
+65	55598	0.4	1	2094 53504
+66	102757	0.4	1	2311 100446
+67	193166	0.4	1	3804 189362
+68	356303	0.4	1	7947 348356
+69	637732	0.4	1	14835 622897
+70	240078	0.4	1	25240 214838
+71	85900	0.4	1	7940 77960
+72	46461	0.4	1	3516 42945
+73	14210	0.4	1	1499 12711
+74	7011	0.4	1	487 6524
+75	3821	0.4	1	224 3597
+76	3608	0.4	1	194 3414
+77	3281	0.4	1	191 3090
+78	2803	0.4	1	143 2660
+79	2288	0.4	1	117 2171
+80	1890	0.4	1	108 1782
+81	1536	0.4	1	132 1404
+82	1327	0.4	1	74 1253
+83	1302	0.4	1	65 1237
+84	1226	0.4	1	74 1152
+85	1152	0.4	1	73 1079
+86	1130	0.4	1	77 1053
+87	1172	0.4	1	81 1091
+88	1242	0.4	1	73 1169
+89	1099	0.4	1	78 1021
+90	1186	0.4	1	69 1117
+91	1235	0.4	1	60 1175
+92	1433	0.4	1	84 1349
+93	1506	0.4	1	101 1405
+94	1426	0.4	1	149 1277
+95	1606	0.4	1	177 1429
+96	2041	0.4	1	153 1888
+97	2551	0.4	1	161 2390
+98	2585	0.4	1	257 2328
+99	2860	0.4	1	392 2468
+100	6308	0.4	1	1376 4932
+101	32604	0.4	1	5321 27283
+
+
+RUN STATISTICS FOR INPUT FILE: fastqs/HC-05.fq.gz
+=============================================
+24896355 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	2599489 (10.4%)
+

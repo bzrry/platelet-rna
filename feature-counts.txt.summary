@@ -1,0 +1,15 @@
+Status	aligned/HC-01_trimmed.Aligned.sortedByCoord.out.bam	aligned/HC-02_trimmed.Aligned.sortedByCoord.out.bam	aligned/HC-03_trimmed.Aligned.sortedByCoord.out.bam	aligned/HC-04_trimmed.Aligned.sortedByCoord.out.bam	aligned/HC-05_trimmed.Aligned.sortedByCoord.out.bam	aligned/HC-06_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-0119_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-01_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-07_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-12_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-16_trimmed.Aligned.sortedByCoord.out.bam	aligned/Lung-17_trimmed.Aligned.sortedByCoord.out.bam
+Assigned	7381248	6049838	3337282	6839690	7914455	9346942	6949034	8512663	8443834	10334258	13763564	13390196
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	9685493	7349117	4552762	8405138	10622819	12763927	7678863	7009316	5451667	6608656	9116347	8678795
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	9824714	22680822	13414947	10270547	7772946	8916275	1374732	8288905	4937500	898178	4455578	3295149
+Unassigned_Overlapping_Length	24490	39219	24044	23850	17587	20905	3971	20526	13305	8353	15978	14904
+Unassigned_Ambiguity	475040	301981	170703	417694	391344	812060	295316	698637	536494	957054	988642	1266556

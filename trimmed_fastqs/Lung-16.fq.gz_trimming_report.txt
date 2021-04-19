@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fastqs/Lung-16.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 1.18
+Python version: 3.7.6
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 3.7.6
+Command line parameters: -j 4 -e 0.1 -q 20 -O 5 -a AGATCGGAAGAGC fastqs/Lung-16.fq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 268.86 s (7 us/read; 8.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              39,827,060
+Reads with adapters:                 2,799,216 (7.0%)
+Reads written (passing filters):    39,827,060 (100.0%)
+
+Total basepairs processed: 4,022,533,060 bp
+Quality-trimmed:             187,404,226 bp (4.7%)
+Total written (filtered):  3,674,182,651 bp (91.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 2799216 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 3.7%
+  C: 2.9%
+  G: 3.0%
+  T: 3.9%
+  none/other: 86.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	54430	38893.6	0	54430
+6	40897	9723.4	0	40897
+7	25445	2430.9	0	25445
+8	26756	607.7	0	26756
+9	24258	151.9	0	23906 352
+10	19910	38.0	1	19241 669
+11	17495	9.5	1	16990 505
+12	15557	2.4	1	15144 413
+13	12925	0.6	1	12580 345
+14	12234	0.6	1	11902 332
+15	10737	0.6	1	10362 375
+16	10319	0.6	1	9886 433
+17	10690	0.6	1	10203 487
+18	9039	0.6	1	8661 378
+19	5239	0.6	1	4934 305
+20	6484	0.6	1	6066 418
+21	6400	0.6	1	5994 406
+22	5002	0.6	1	4483 519
+23	6168	0.6	1	5138 1030
+24	5469	0.6	1	3940 1529
+25	6235	0.6	1	4148 2087
+26	6711	0.6	1	4217 2494
+27	7355	0.6	1	3568 3787
+28	6885	0.6	1	2926 3959
+29	6900	0.6	1	3186 3714
+30	5593	0.6	1	2768 2825
+31	6290	0.6	1	2238 4052
+32	6451	0.6	1	2386 4065
+33	26518	0.6	1	1986 24532
+34	13315	0.6	1	2681 10634
+35	7344	0.6	1	2064 5280
+36	6879	0.6	1	1410 5469
+37	10761	0.6	1	1623 9138
+38	9058	0.6	1	1643 7415
+39	22418	0.6	1	1255 21163
+40	20849	0.6	1	2253 18596
+41	7432	0.6	1	2346 5086
+42	6250	0.6	1	878 5372
+43	6153	0.6	1	1142 5011
+44	21930	0.6	1	824 21106
+45	21774	0.6	1	1474 20300
+46	8861	0.6	1	1213 7648
+47	9606	0.6	1	800 8806
+48	13566	0.6	1	906 12660
+49	9288	0.6	1	1616 7672
+50	9508	0.6	1	680 8828
+51	22386	0.6	1	771 21615
+52	23645	0.6	1	1247 22398
+53	7748	0.6	1	1234 6514
+54	10247	0.6	1	438 9809
+55	12352	0.6	1	655 11697
+56	17649	0.6	1	657 16992
+57	23769	0.6	1	840 22929
+58	36264	0.6	1	1063 35201
+59	18530	0.6	1	1312 17218
+60	34762	0.6	1	646 34116
+61	47449	0.6	1	1119 46330
+62	134401	0.6	1	1464 132937
+63	118401	0.6	1	4125 114276
+64	50608	0.6	1	3650 46958
+65	58669	0.6	1	1694 56975
+66	107532	0.6	1	1993 105539
+67	238307	0.6	1	3444 234863
+68	301365	0.6	1	5613 295752
+69	600709	0.6	1	9209 591500
+70	172183	0.6	1	16371 155812
+71	66681	0.6	1	5149 61532
+72	16359	0.6	1	1620 14739
+73	7713	0.6	1	450 7263
+74	4429	0.6	1	222 4207
+75	2907	0.6	1	119 2788
+76	2801	0.6	1	124 2677
+77	2709	0.6	1	121 2588
+78	2145	0.6	1	108 2037
+79	1703	0.6	1	74 1629
+80	1486	0.6	1	64 1422
+81	1304	0.6	1	75 1229
+82	1299	0.6	1	90 1209
+83	1154	0.6	1	84 1070
+84	1041	0.6	1	78 963
+85	993	0.6	1	74 919
+86	1021	0.6	1	81 940
+87	993	0.6	1	123 870
+88	909	0.6	1	78 831
+89	888	0.6	1	63 825
+90	946	0.6	1	82 864
+91	976	0.6	1	78 898
+92	1150	0.6	1	114 1036
+93	1409	0.6	1	238 1171
+94	1421	0.6	1	276 1145
+95	1354	0.6	1	124 1230
+96	1528	0.6	1	131 1397
+97	1707	0.6	1	156 1551
+98	1935	0.6	1	310 1625
+99	1984	0.6	1	341 1643
+100	3918	0.6	1	703 3215
+101	15993	0.6	1	3759 12234
+
+
+RUN STATISTICS FOR INPUT FILE: fastqs/Lung-16.fq.gz
+=============================================
+39827060 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	2429556 (6.1%)
+

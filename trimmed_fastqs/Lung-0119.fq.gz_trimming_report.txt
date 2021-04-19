@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fastqs/Lung-0119.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 1.18
+Python version: 3.7.6
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 3.7.6
+Command line parameters: -j 4 -e 0.1 -q 20 -O 5 -a AGATCGGAAGAGC fastqs/Lung-0119.fq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 74.07 s (6 us/read; 9.55 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              11,784,423
+Reads with adapters:                    23,600 (0.2%)
+Reads written (passing filters):    11,784,423 (100.0%)
+
+Total basepairs processed: 1,190,226,723 bp
+Quality-trimmed:              57,831,209 bp (4.9%)
+Total written (filtered):  1,132,055,532 bp (95.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 23600 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 22.4%
+  C: 17.0%
+  G: 22.1%
+  T: 32.9%
+  none/other: 5.5%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6959	11508.2	0	6959
+6	2651	2877.1	0	2651
+7	1748	719.3	0	1748
+8	1453	179.8	0	1453
+9	1269	45.0	0	1218 51
+10	1126	11.2	1	1025 101
+11	880	2.8	1	825 55
+12	763	0.7	1	752 11
+13	705	0.2	1	685 20
+14	575	0.2	1	562 13
+15	504	0.2	1	491 13
+16	419	0.2	1	406 13
+17	381	0.2	1	371 10
+18	297	0.2	1	290 7
+19	275	0.2	1	269 6
+20	247	0.2	1	240 7
+21	205	0.2	1	202 3
+22	200	0.2	1	190 10
+23	149	0.2	1	140 9
+24	135	0.2	1	131 4
+25	108	0.2	1	105 3
+26	92	0.2	1	90 2
+27	92	0.2	1	89 3
+28	104	0.2	1	100 4
+29	61	0.2	1	58 3
+30	57	0.2	1	55 2
+31	57	0.2	1	53 4
+32	46	0.2	1	42 4
+33	46	0.2	1	43 3
+34	44	0.2	1	42 2
+35	43	0.2	1	37 6
+36	33	0.2	1	29 4
+37	40	0.2	1	37 3
+38	27	0.2	1	25 2
+39	26	0.2	1	25 1
+40	32	0.2	1	21 11
+41	20	0.2	1	16 4
+42	20	0.2	1	17 3
+43	23	0.2	1	15 8
+44	17	0.2	1	15 2
+45	17	0.2	1	14 3
+46	18	0.2	1	13 5
+47	15	0.2	1	7 8
+48	13	0.2	1	11 2
+49	12	0.2	1	10 2
+50	9	0.2	1	7 2
+51	9	0.2	1	5 4
+52	6	0.2	1	6
+53	14	0.2	1	7 7
+54	17	0.2	1	12 5
+55	10	0.2	1	7 3
+56	10	0.2	1	7 3
+57	10	0.2	1	4 6
+58	7	0.2	1	5 2
+59	8	0.2	1	4 4
+60	10	0.2	1	5 5
+61	6	0.2	1	3 3
+62	9	0.2	1	6 3
+63	11	0.2	1	0 11
+64	8	0.2	1	4 4
+65	10	0.2	1	4 6
+66	5	0.2	1	1 4
+67	10	0.2	1	3 7
+68	7	0.2	1	5 2
+69	11	0.2	1	2 9
+70	22	0.2	1	9 13
+71	26	0.2	1	8 18
+72	25	0.2	1	11 14
+73	50	0.2	1	7 43
+74	62	0.2	1	2 60
+75	693	0.2	1	2 691
+76	246	0.2	1	21 225
+77	39	0.2	1	6 33
+78	14	0.2	1	4 10
+79	6	0.2	1	0 6
+80	10	0.2	1	0 10
+81	10	0.2	1	0 10
+82	11	0.2	1	1 10
+83	8	0.2	1	0 8
+84	10	0.2	1	0 10
+85	9	0.2	1	0 9
+86	12	0.2	1	0 12
+87	4	0.2	1	0 4
+88	5	0.2	1	0 5
+89	15	0.2	1	0 15
+90	12	0.2	1	0 12
+91	9	0.2	1	0 9
+92	3	0.2	1	0 3
+93	6	0.2	1	1 5
+94	9	0.2	1	0 9
+95	9	0.2	1	0 9
+96	8	0.2	1	0 8
+97	5	0.2	1	0 5
+98	10	0.2	1	0 10
+99	13	0.2	1	0 13
+100	10	0.2	1	0 10
+101	38	0.2	1	0 38
+
+
+RUN STATISTICS FOR INPUT FILE: fastqs/Lung-0119.fq.gz
+=============================================
+11784423 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	61812 (0.5%)
+

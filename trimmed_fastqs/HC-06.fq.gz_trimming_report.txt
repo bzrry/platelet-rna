@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fastqs/HC-06.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 1.18
+Python version: 3.7.6
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 3.7.6
+Command line parameters: -j 4 -e 0.1 -q 20 -O 5 -a AGATCGGAAGAGC fastqs/HC-06.fq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 183.43 s (7 us/read; 8.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              24,802,865
+Reads with adapters:                   859,220 (3.5%)
+Reads written (passing filters):    24,802,865 (100.0%)
+
+Total basepairs processed: 2,505,089,365 bp
+Quality-trimmed:              92,282,346 bp (3.7%)
+Total written (filtered):  2,363,470,494 bp (94.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 859220 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 5.5%
+  C: 4.0%
+  G: 4.4%
+  T: 5.6%
+  none/other: 80.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	33388	24221.5	0	33388
+6	19020	6055.4	0	19020
+7	11387	1513.8	0	11387
+8	11715	378.5	0	11715
+9	10435	94.6	0	10184 251
+10	8752	23.7	1	8357 395
+11	7467	5.9	1	7229 238
+12	6685	1.5	1	6560 125
+13	5307	0.4	1	5197 110
+14	4912	0.4	1	4820 92
+15	4436	0.4	1	4332 104
+16	4035	0.4	1	3941 94
+17	3948	0.4	1	3815 133
+18	3337	0.4	1	3255 82
+19	2001	0.4	1	1949 52
+20	2489	0.4	1	2397 92
+21	2375	0.4	1	2304 71
+22	1774	0.4	1	1705 69
+23	2069	0.4	1	1899 170
+24	1626	0.4	1	1433 193
+25	1577	0.4	1	1365 212
+26	1616	0.4	1	1303 313
+27	1828	0.4	1	1218 610
+28	1528	0.4	1	1102 426
+29	1465	0.4	1	981 484
+30	1280	0.4	1	1024 256
+31	1026	0.4	1	634 392
+32	1171	0.4	1	821 350
+33	2413	0.4	1	608 1805
+34	1200	0.4	1	692 508
+35	2408	0.4	1	774 1634
+36	1465	0.4	1	522 943
+37	1206	0.4	1	648 558
+38	1460	0.4	1	1028 432
+39	1067	0.4	1	426 641
+40	1274	0.4	1	492 782
+41	889	0.4	1	567 322
+42	645	0.4	1	295 350
+43	615	0.4	1	329 286
+44	944	0.4	1	266 678
+45	1123	0.4	1	323 800
+46	847	0.4	1	322 525
+47	919	0.4	1	232 687
+48	1259	0.4	1	236 1023
+49	1209	0.4	1	316 893
+50	1259	0.4	1	171 1088
+51	1763	0.4	1	208 1555
+52	1907	0.4	1	198 1709
+53	938	0.4	1	241 697
+54	1070	0.4	1	108 962
+55	1297	0.4	1	182 1115
+56	1651	0.4	1	190 1461
+57	2459	0.4	1	149 2310
+58	3520	0.4	1	159 3361
+59	2373	0.4	1	199 2174
+60	4423	0.4	1	120 4303
+61	6173	0.4	1	176 5997
+62	16498	0.4	1	279 16219
+63	27753	0.4	1	521 27232
+64	14616	0.4	1	641 13975
+65	15216	0.4	1	347 14869
+66	26250	0.4	1	412 25838
+67	56842	0.4	1	654 56188
+68	95309	0.4	1	1258 94051
+69	223708	0.4	1	2168 221540
+70	82558	0.4	1	4966 77592
+71	38093	0.4	1	1372 36721
+72	19834	0.4	1	779 19055
+73	4678	0.4	1	278 4400
+74	2350	0.4	1	115 2235
+75	1274	0.4	1	47 1227
+76	1241	0.4	1	49 1192
+77	1104	0.4	1	44 1060
+78	874	0.4	1	24 850
+79	802	0.4	1	20 782
+80	660	0.4	1	17 643
+81	521	0.4	1	15 506
+82	477	0.4	1	19 458
+83	434	0.4	1	9 425
+84	406	0.4	1	8 398
+85	428	0.4	1	18 410
+86	405	0.4	1	8 397
+87	410	0.4	1	16 394
+88	420	0.4	1	12 408
+89	416	0.4	1	14 402
+90	441	0.4	1	14 427
+91	431	0.4	1	16 415
+92	555	0.4	1	16 539
+93	554	0.4	1	20 534
+94	529	0.4	1	23 506
+95	587	0.4	1	22 565
+96	705	0.4	1	19 686
+97	868	0.4	1	40 828
+98	900	0.4	1	44 856
+99	1066	0.4	1	44 1022
+100	1983	0.4	1	140 1843
+101	8599	0.4	1	934 7665
+
+
+RUN STATISTICS FOR INPUT FILE: fastqs/HC-06.fq.gz
+=============================================
+24802865 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	696828 (2.8%)
+

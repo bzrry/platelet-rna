@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fastqs/Lung-17.fq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 1.18
+Python version: 3.7.6
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 3.7.6
+Command line parameters: -j 4 -e 0.1 -q 20 -O 5 -a AGATCGGAAGAGC fastqs/Lung-17.fq.gz
+Processing reads on 4 cores in single-end mode ...
+Finished in 181.35 s (7 us/read; 8.27 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              24,991,176
+Reads with adapters:                 1,455,622 (5.8%)
+Reads written (passing filters):    24,991,176 (100.0%)
+
+Total basepairs processed: 2,524,108,776 bp
+Quality-trimmed:              98,251,353 bp (3.9%)
+Total written (filtered):  2,335,360,142 bp (92.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 1455622 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 2.6%
+  C: 2.0%
+  G: 2.6%
+  T: 2.5%
+  none/other: 90.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	28812	24405.4	0	28812
+6	14381	6101.4	0	14381
+7	9032	1525.3	0	9032
+8	9084	381.3	0	9084
+9	7688	95.3	0	7371 317
+10	6737	23.8	1	6339 398
+11	5886	6.0	1	5606 280
+12	5232	1.5	1	5105 127
+13	4075	0.4	1	3973 102
+14	3928	0.4	1	3819 109
+15	3327	0.4	1	3234 93
+16	2913	0.4	1	2813 100
+17	3090	0.4	1	2964 126
+18	2639	0.4	1	2533 106
+19	1741	0.4	1	1634 107
+20	2023	0.4	1	1900 123
+21	1912	0.4	1	1766 146
+22	1460	0.4	1	1328 132
+23	1808	0.4	1	1478 330
+24	1497	0.4	1	979 518
+25	1728	0.4	1	1093 635
+26	1901	0.4	1	980 921
+27	2648	0.4	1	949 1699
+28	2169	0.4	1	838 1331
+29	2400	0.4	1	786 1614
+30	1870	0.4	1	866 1004
+31	2272	0.4	1	470 1802
+32	2527	0.4	1	577 1950
+33	27298	0.4	1	458 26840
+34	12801	0.4	1	817 11984
+35	3177	0.4	1	703 2474
+36	5598	0.4	1	813 4785
+37	3857	0.4	1	1024 2833
+38	7546	0.4	1	593 6953
+39	4577	0.4	1	533 4044
+40	5650	0.4	1	595 5055
+41	5636	0.4	1	678 4958
+42	6214	0.4	1	664 5550
+43	3701	0.4	1	697 3004
+44	6340	0.4	1	319 6021
+45	2035	0.4	1	232 1803
+46	4148	0.4	1	223 3925
+47	2996	0.4	1	293 2703
+48	4904	0.4	1	337 4567
+49	3290	0.4	1	174 3116
+50	3614	0.4	1	259 3355
+51	2590	0.4	1	325 2265
+52	3456	0.4	1	238 3218
+53	5407	0.4	1	354 5053
+54	6053	0.4	1	432 5621
+55	3420	0.4	1	493 2927
+56	3579	0.4	1	193 3386
+57	4079	0.4	1	275 3804
+58	5772	0.4	1	376 5396
+59	8826	0.4	1	330 8496
+60	11471	0.4	1	655 10816
+61	7895	0.4	1	925 6970
+62	13062	0.4	1	568 12494
+63	20998	0.4	1	1146 19852
+64	50885	0.4	1	1807 49078
+65	65200	0.4	1	5259 59941
+66	37654	0.4	1	4303 33351
+67	42896	0.4	1	3378 39518
+68	64559	0.4	1	2022 62537
+69	102085	0.4	1	3164 98921
+70	147854	0.4	1	5395 142459
+71	343722	0.4	1	8315 335407
+72	118390	0.4	1	17086 101304
+73	58338	0.4	1	5458 52880
+74	11769	0.4	1	1883 9886
+75	5555	0.4	1	552 5003
+76	5330	0.4	1	539 4791
+77	5098	0.4	1	470 4628
+78	3378	0.4	1	266 3112
+79	2723	0.4	1	237 2486
+80	1881	0.4	1	217 1664
+81	2048	0.4	1	591 1457
+82	1299	0.4	1	280 1019
+83	810	0.4	1	66 744
+84	760	0.4	1	57 703
+85	743	0.4	1	48 695
+86	608	0.4	1	48 560
+87	578	0.4	1	55 523
+88	710	0.4	1	61 649
+89	762	0.4	1	50 712
+90	719	0.4	1	72 647
+91	731	0.4	1	75 656
+92	830	0.4	1	89 741
+93	1043	0.4	1	61 982
+94	1204	0.4	1	79 1125
+95	1030	0.4	1	113 917
+96	1122	0.4	1	158 964
+97	1395	0.4	1	129 1266
+98	2871	0.4	1	165 2706
+99	2594	0.4	1	263 2331
+100	5033	0.4	1	582 4451
+101	16645	0.4	1	3829 12816
+
+
+RUN STATISTICS FOR INPUT FILE: fastqs/Lung-17.fq.gz
+=============================================
+24991176 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	1323125 (5.3%)
+
