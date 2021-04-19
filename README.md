@@ -1,5 +1,5 @@
 # platelet-rna
 
-Code to re-analyze a subset of the data in "RNA-Seq of Tumor-Educated Platelets Enables Blood-Based Pan-Cancer, Multiclass, and Molecular Pathway Cancer Diagnostics"
+Code to re-analyze a subset of the data in "RNA-Seq of Tumor-Educated Platelets Enables Blood-Based Pan-Cancer, Multiclass, and Molecular Pathway Cancer Diagnostics" by Best et al.
 
-Start with download_and_align.sh
+Start with download_and_align.sh.
